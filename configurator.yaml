@@ -1,0 +1,4 @@
+configurator:
+  icon: mdi:wrench
+  title: Configrator
+  url: http://localhost:3128

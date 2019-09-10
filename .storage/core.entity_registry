@@ -1,0 +1,71 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.tranvien",
+                "name": null,
+                "platform": "person",
+                "unique_id": "d31de7ada8eb4619bbe316f6bf65279f"
+            },
+            {
+                "config_entry_id": "7cc6e53a382b4c50a36525a00bf657b6",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.nha",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "2dc4475bf53a478c8006593167f32368",
+                "device_id": "0cf279c97b7d4974a9e6a2a3397f8f48",
+                "disabled_by": null,
+                "entity_id": "media_player.speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "e1252b63-1ce3-653d-38ed-fa9fe543686c"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "fan.quat_phong_khach",
+                "name": null,
+                "platform": "smartir",
+                "unique_id": "quat_phongkhach"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "climate.den_trang_tri",
+                "name": null,
+                "platform": "smartir",
+                "unique_id": "wefffcdsf"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "climate.dh",
+                "name": null,
+                "platform": "smartir",
+                "unique_id": "dh_ph"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

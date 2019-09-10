@@ -1,0 +1,28 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": "a6c48e8e0c2d4859a90e6b098ecd65bf",
+                "config_entries": [
+                    "2dc4475bf53a478c8006593167f32368"
+                ],
+                "connections": [],
+                "id": "0cf279c97b7d4974a9e6a2a3397f8f48",
+                "identifiers": [
+                    [
+                        "cast",
+                        "e1252b631ce3653d38edfa9fe543686c"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Google Home Mini",
+                "name": "speaker",
+                "name_by_user": "google home",
+                "sw_version": null,
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

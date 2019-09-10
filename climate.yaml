@@ -1,0 +1,10 @@
+- controller_data: 192.168.1.36
+  device_code: 1000
+  name: dh
+  platform: smartir
+  unique_id: dh_ph
+- controller_data: 192.168.1.36
+  device_code: 1062
+  name: den trang tri
+  platform: smartir
+  unique_id: wefffcdsf

@@ -1,0 +1,37 @@
+{
+    "data": {
+        "config": {
+            "title": "Nh\u00e0",
+            "views": [
+                {
+                    "badges": [
+                        "person.tranvien",
+                        "script.1567053355"
+                    ],
+                    "cards": [
+                        {
+                            "entity": "media_player.speaker",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "weather.nha",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [
+                        "fan.quat_phong_khach",
+                        "switch.den_nha_ve_sinh1566887944",
+                        "switch.den_hanh_lang"
+                    ],
+                    "cards": []
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

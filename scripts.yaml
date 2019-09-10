@@ -1,0 +1,24 @@
+'1568020055':
+  alias: Báo nói 1
+  sequence:
+  - data:
+      cache: 'false'
+      entity_id: media_player.speaker
+      news_name: vietnamnet
+      tts_service: tts.google_say
+    service: read_news.get
+'1568020132':
+  alias: bật đèn ngủ ở phòng ngủ 3
+  sequence:
+  - data:
+      entity_id: fan.quat_phong_khach
+    service: fan.turn_on
+'1568024558':
+  alias: Báo nói 2
+  sequence:
+  - data:
+      cache: 'false'
+      entity_id: media_player.speaker
+      news_name: vietnamnet
+      tts_service: tts.google_say
+    service: read_news.get

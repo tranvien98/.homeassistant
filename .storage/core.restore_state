@@ -1,0 +1,275 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "commands_encoding": "Base64",
+                    "current_temperature": null,
+                    "device_code": 1062,
+                    "fan_mode": "auto",
+                    "fan_modes": [
+                        "auto",
+                        "low",
+                        "mid",
+                        "high"
+                    ],
+                    "friendly_name": "den trang tri",
+                    "hvac_modes": [
+                        "off",
+                        "cool",
+                        "heat",
+                        "dry",
+                        "heat_cool"
+                    ],
+                    "last_on_operation": null,
+                    "manufacturer": "LG",
+                    "max_temp": 30.0,
+                    "min_temp": 18.0,
+                    "supported_controller": "Broadlink",
+                    "supported_features": 9,
+                    "supported_models": [
+                        "P12RK"
+                    ],
+                    "target_temp_step": 1.0,
+                    "temperature": 24
+                },
+                "context": {
+                    "id": "4ea36afd39ab417a98e568005dd3cb9d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "climate.den_trang_tri",
+                "last_changed": "2019-09-10T01:57:47.733594+00:00",
+                "last_updated": "2019-09-10T01:57:47.733594+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "commands_encoding": "Base64",
+                    "current_temperature": null,
+                    "device_code": 1000,
+                    "fan_mode": "low",
+                    "fan_modes": [
+                        "low",
+                        "mid",
+                        "high",
+                        "auto"
+                    ],
+                    "friendly_name": "dh",
+                    "hvac_modes": [
+                        "off",
+                        "heat",
+                        "cool"
+                    ],
+                    "last_on_operation": null,
+                    "manufacturer": "Toyotomi",
+                    "max_temp": 30,
+                    "min_temp": 16,
+                    "supported_controller": "Broadlink",
+                    "supported_features": 9,
+                    "supported_models": [
+                        "AKIRA GAN/GAG-A128 VL"
+                    ],
+                    "target_temp_step": 1,
+                    "temperature": 16
+                },
+                "context": {
+                    "id": "20382e032f984aee8329fabdb5e59cea",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "climate.dh",
+                "last_changed": "2019-09-10T01:57:47.733704+00:00",
+                "last_updated": "2019-09-10T01:57:47.733704+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "tranvien",
+                    "id": "d31de7ada8eb4619bbe316f6bf65279f",
+                    "source": "person.tranvien",
+                    "user_id": "e98d0b2613e245a6928ea409619ba66a"
+                },
+                "context": {
+                    "id": "726aedd2394f440ba9807a1e7e9bf0c5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.tranvien",
+                "last_changed": "2019-09-10T01:57:47.733810+00:00",
+                "last_updated": "2019-09-10T01:57:47.733810+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "commands_encoding": "Base64",
+                    "device_code": 1000,
+                    "direction": "reverse",
+                    "friendly_name": "quat phong khach",
+                    "last_on_speed": "lowest",
+                    "manufacturer": "Kaze",
+                    "speed": "lowest",
+                    "speed_list": [
+                        "off",
+                        "lowest",
+                        "low",
+                        "mediumLow",
+                        "medium",
+                        "mediumHigh",
+                        "high"
+                    ],
+                    "supported_controller": "Broadlink",
+                    "supported_features": 5,
+                    "supported_models": [
+                        "Unknown"
+                    ]
+                },
+                "context": {
+                    "id": "b1b3b766330049f7b604d30c7c9b7c31",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "fan.quat_phong_khach",
+                "last_changed": "2019-09-10T01:57:47.733910+00:00",
+                "last_updated": "2019-09-10T01:57:47.733910+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "den_tran"
+                },
+                "context": {
+                    "id": "824fb9880d4c4e8ba2a463269afe0587",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_tran",
+                "last_changed": "2019-09-10T01:57:47.756774+00:00",
+                "last_updated": "2019-09-10T01:57:47.756774+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0111\u00e8n nh\u00e0 b\u1ebfp"
+                },
+                "context": {
+                    "id": "ef544217c85b4646b2283d1b352caaa6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_nha_bep",
+                "last_changed": "2019-09-10T01:57:47.760431+00:00",
+                "last_updated": "2019-09-10T01:57:47.760431+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-10T01:57:52.970327+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "den_trang_ tri"
+                },
+                "context": {
+                    "id": "6a4c1574d5d44505bc37c42293790bf0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_trang_tri",
+                "last_changed": "2019-09-10T01:57:47.833076+00:00",
+                "last_updated": "2019-09-10T01:57:47.833076+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-03T10:47:59.281567+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "den tran 32"
+                },
+                "context": {
+                    "id": "326dddb527d4472ead24b6d2414db301",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_tran_32",
+                "last_changed": "2019-09-03T07:38:13.254739+00:00",
+                "last_updated": "2019-09-03T07:38:13.254739+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-03T10:47:59.281567+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "den trang tri"
+                },
+                "context": {
+                    "id": "a47113957ae447f193ad5551f3185b70",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_trang_tri1567477046",
+                "last_changed": "2019-09-03T07:38:13.347056+00:00",
+                "last_updated": "2019-09-03T07:38:13.347056+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-03T04:38:11.105368+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "den trang tri"
+                },
+                "context": {
+                    "id": "38faa8185f314b44b77d392731e2b2cf",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.den_trang_tri1567475445",
+                "last_changed": "2019-09-03T01:57:53.212960+00:00",
+                "last_updated": "2019-09-03T01:57:53.212960+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-09-03T09:51:00.004119+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kich ban di choi",
+                    "id": "alarm.1567503273",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "6c57fab7196d48d4bcb3548c24e0700e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.kich_ban_di_choi",
+                "last_changed": "2019-09-03T09:43:25.021572+00:00",
+                "last_updated": "2019-09-03T09:43:25.021572+00:00",
+                "state": "on"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

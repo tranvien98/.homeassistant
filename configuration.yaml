@@ -1,0 +1,41 @@
+homeassistant:
+  latitude: 20.995099 
+  longitude: 105.861871
+  elevation: 10
+  unit_system: metric
+  time_zone: Asia/Ho_Chi_Minh
+  name: Home
+  whitelist_external_dirs:
+    - /tmp
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+#MQTT broker
+mqtt:
+  broker: 192.168.1.44
+  username: javis
+  password: javis2018
+
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+http:
+  api_password: !secret http_password
+
+panel_iframe: !include configurator.yaml
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+switch: !include switch.yaml
+fan: !include fan.yaml
+climate: !include climate.yaml
+smartir:
+tts:
+ - platform: google_translate
+   service_name: google_say
+   language: 'vi'
+radio_vn:
+read_news:

@@ -1,0 +1,5 @@
+- controller_data: 192.168.1.36
+  device_code: 1000
+  name: quat phong khach
+  platform: smartir
+  unique_id: quat_phongkhach

@@ -1,0 +1,9 @@
+2019-09-10 08:57:45 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for smartir which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-09-10 08:57:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for read_news which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-09-10 08:57:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for radio_vn which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-09-10 08:57:46 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-09-10 08:57:46 WARNING (MainThread) [homeassistant.components.http.auth] legacy_api_password support has been enabled.
+2019-09-10 09:03:08 WARNING (Thread-3) [pychromecast.socket_client] [speaker:8009] Heartbeat timeout, resetting connection
+2019-09-10 09:03:38 ERROR (Thread-3) [pychromecast.socket_client] [speaker:8009] Failed to connect to service Google-Home-Mini-e1252b631ce3653d38edfa9fe543686c._googlecast._tcp.local., retrying in 5.0s
+2019-09-10 09:03:58 WARNING (MainThread) [homeassistant.helpers.service] Unable to find services.yaml for the read_news integration
+2019-09-10 09:03:58 WARNING (MainThread) [homeassistant.helpers.service] Unable to find services.yaml for the radio_vn integration

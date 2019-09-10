@@ -1,0 +1,30 @@
+- command_topic: 260561642095709/switch.1/set
+  name: den_tran
+  payload_off: 'off'
+  payload_on: 'on'
+  platform: mqtt
+  state_off: 'off'
+  state_on: 'on'
+  state_topic: 260561642095709/switch.1/state
+- command_topic: 260561642095709/switch.2/set
+  name: den_trang_ tri
+  payload_off: 'off'
+  payload_on: 'on'
+  platform: mqtt
+  state_off: 'off'
+  state_on: 'on'
+  state_topic: 260561642095709/switch.2/state
+- command_topic: 260561642095709/switch.3/set
+  name: đèn nhà bếp
+  payload_off: 'off'
+  payload_on: 'on'
+  platform: mqtt
+  state_off: 'off'
+  state_on: 'on'
+  state_topic: 260561642095709/switch.3/state
+- host: 192.168.1.36
+  mac: 34EA348A4594
+  platform: broadlink
+  switches: {}
+  timeout: '15'
+  type: rm
